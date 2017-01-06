@@ -1,0 +1,92 @@
+/*Shout out: Austen Wolf: https://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
+
+.navigation {
+  list-style: none;
+    background: #111;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+
+    padding: 1rem 1rem 1rem 2rem;
+    background-image: linear-gradient(135deg,
+                      rgb(254,255,255) 0%,
+                      rgb(221,241,249) 35%,
+                      rgb(160,216,239) 100%);
+    background-size: 200%;
+
+
+    &__nav-item { /*the "about" "skills" etc. */
+      font-size: 1.5rem;
+      line-height: 3rem;
+
+      @mixin atSmall {
+        line-height: 4rem;
+      }
+
+      &--large { /*the @me text */
+        font-size: 2rem;
+        margin:  0 0 1rem 1rem;
+      }
+
+      &__icon { /*the font awesome icons*/
+        font-size: 2rem;
+        margin: 1rem -1rem;
+
+        @mixin atSmall {
+        font-size: 3rem;
+        }
+
+        &--text { /*text next to the icons showing the links*/
+          font-size: 1.5rem;
+          font-weight: 300;
+        }
+      }
+    }
+
+}
+
+/*a different class, but still related to the navbar */
+
+.nav-trigger {
+  position: fixed; /*this hides the checkbox */
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6'/><rect y='24' width='30' height='6'/><rect y='12' width='30' height='6'/></svg>");
+    background-size: contain;
+
+    @mixin atSmall {
+      top: 15px;
+      left: 15px;
+      width: 30px;
+      height: 30px;
+    }
+}
+
+.nav-trigger:checked + label {
+    left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+.nav-trigger + label, .site-wrap {
+    transition: left 0.2s;
+}
