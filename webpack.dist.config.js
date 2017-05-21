@@ -21,7 +21,10 @@ module.exports = {
         }
       }
     ]
-  }
+  }, 
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '*']
+  },
 };
 // var webpack = require('webpack')
 // var path = require('path');

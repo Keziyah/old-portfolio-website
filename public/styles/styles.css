@@ -1,0 +1,76 @@
+/******* GENERAL STYLES ********/
+.section {
+  height: 100vh; 
+  overflow: hidden; 
+}
+
+#app:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hori-center {
+  text-align: center; 
+  margin-left: auto; 
+  margin-right: auto;  
+}
+
+.down {
+  text-align: center; 
+  margin-top: 10%; 
+}
+
+
+/******** HERO IMAGE *********/
+#hero-text {
+  margin-top: 17%; 
+}
+
+#my-name {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;  
+}
+
+#tagline {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em; 
+}
+
+/******* PROJECTS **********/
+
+.project-info {
+  margin-top: 10%; 
+}
+
+.project-name {
+  font-size: 14rem; 
+}
+
+.project-tag {
+  font-size: 3rem !important; 
+}
+
+.my-button {
+  margin-top: 5%; 
+}
+
+.project-down {
+  margin-top: 5%; 
+}
+
+/**********LINGOLY *********/
+
+/******* SPACECHAT ********/
+
+#spacechat-header {
+  font-family: 'Orbitron', sans-serif !important;
+}
+
+/******ANIMATIONS IN REACT **********/
+
+#animations-header {
+  font-size: 10rem; 
+  margin-top: 0%; 
+}
