@@ -26,7 +26,7 @@ const Project = (props) => {
 
                         <Row className="my-button">
                             <Col sm={12}>
-                                <Button>Learn More</Button>
+                                <Button onClick={props.onClick}>Learn More</Button>
                             </Col>
                         </Row>
 
