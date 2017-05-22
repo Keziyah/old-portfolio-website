@@ -8,3 +8,4 @@ const ProjectDetail = (props) => {
 }
 
 export default ProjectDetail
+
