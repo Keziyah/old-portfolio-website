@@ -8,6 +8,6 @@ app.get('/*', (req, res, next) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-app.listen(3001, () => {
+app.listen(process.env.PORT || 3001, () => {
   console.log('Keziyahs Website on 3001')
 })

@@ -20901,7 +20901,7 @@ var About = function About(props) {
                         { xs: 12, sm: 6, md: 3 },
                         _react2.default.createElement(
                             'a',
-                            { href: 'linkedin.com/in/keziyah' },
+                            { href: 'https://www.linkedin.com/in/keziyah/' },
                             _react2.default.createElement('i', { className: 'fa fa-linkedin fa-5x', 'aria-hidden': 'true' }),
                             _react2.default.createElement(
                                 'p',
@@ -20915,7 +20915,7 @@ var About = function About(props) {
                         { xs: 12, sm: 6, md: 3 },
                         _react2.default.createElement(
                             'a',
-                            { href: 'github.com/keziyah' },
+                            { href: 'https://github.com/Keziyah/' },
                             _react2.default.createElement('i', { className: 'fa fa-github fa-5x', 'aria-hidden': 'true' }),
                             _react2.default.createElement(
                                 'p',
@@ -20929,7 +20929,7 @@ var About = function About(props) {
                         { xs: 12, sm: 6, md: 3 },
                         _react2.default.createElement(
                             'a',
-                            { href: 'twitter.com/keziyahL' },
+                            { href: 'https://twitter.com/KeziyahL' },
                             _react2.default.createElement('i', { className: 'fa fa-twitter fa-5x', 'aria-hidden': 'true' }),
                             _react2.default.createElement(
                                 'p',
