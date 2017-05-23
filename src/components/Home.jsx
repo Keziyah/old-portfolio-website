@@ -44,7 +44,7 @@ class Home extends Component {
                 }
                 {this.state.project2 ?
                     <Project name={"spacechat"} tagline={"A virtual reality smart chatroom with real-time language translation and sentiment analysis."} sectionId={"spacechat"} headerId={"spacechat-header"} text={"Projects"} particlesId={"stars"} onClick={this.toggle2} />
-                    : <ProjectDetail onClick={this.toggle2} name={project2.name} url={project2.url} stack={project2.stack} paragraph1={project2.paragraph1} paragraph2={project2.paragraph2} paragraph3={project2.paragraph3} paragraph4={project2.paragraph4} videoId={"rxnfzv_Ff9Q"}/>
+                    : <ProjectDetail onClick={this.toggle2} name={project2.name} url={project2.url} stack={project2.stack} paragraph1={project2.paragraph1} paragraph2={project2.paragraph2} paragraph3={project2.paragraph3} paragraph4={project2.paragraph4} videoId={"Nbz4PqjrLhg"}/>
                 }
                 {this.state.project3 ?
                 <Project name={"Animations in React"} tagline={"Learn to animate React with higher order components, TweenMax, and more..."} sectionId={"animations"} headerId={"animations-header"} text={"Projects"} onClick={this.toggle3}/>
