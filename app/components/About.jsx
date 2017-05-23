@@ -25,21 +25,21 @@ const About = (props) => {
 
                     <Row className="hori-center" id="logos">
                         <Col xs={12} sm={6} md={3}>
-                        <a href="linkedin.com/in/keziyah">
+                        <a href="https://www.linkedin.com/in/keziyah/">
                             <i className="fa fa-linkedin fa-5x" aria-hidden="true"></i>
                             <p className="logo-text">linkedin.com/in/keziyah</p>
                         </a>
                         </Col>
 
                         <Col xs={12} sm={6} md={3} >
-                        <a href="github.com/keziyah">
+                        <a href="https://github.com/Keziyah/">
                             <i className="fa fa-github fa-5x" aria-hidden="true"></i>
                             <p className="logo-text">github.com/keziyah</p>
                         </a>
                         </Col>
 
                         <Col xs={12} sm={6} md={3} >
-                        <a href="twitter.com/keziyahL">
+                        <a href="https://twitter.com/KeziyahL">
                             <i className="fa fa-twitter fa-5x" aria-hidden="true"></i>
                             <p className="logo-text">twitter.com/keziyahL</p>
                         </a>
