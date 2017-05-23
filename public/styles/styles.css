@@ -75,6 +75,27 @@ html,body{
   margin-top: 5%; 
 }
 
+.project-image {
+  height: 300px; 
+  width: 500px; 
+}
+
+/*.details {
+  margin: 0 10%; 
+}
+
+.details-para {
+  font-size: 1.8rem; 
+}
+
+.details-top {
+  margin-left: 5%; 
+}
+
+.details-top h3{
+  font-weight: 200;*/
+}
+
 /**********LINGOLY *********/
 
 #lingoly {
