@@ -40,15 +40,15 @@ class Home extends Component {
                 <Hero />
                 {this.state.project1 ?
                     <Project name={"lingoly"} tagline={"a speech to text speechwriting app for language learners"} sectionId={"lingoly"} headerId={"lingoly-header"} text={"Projects"} onClick={this.toggle1} />
-                    : <ProjectDetail onClick={this.toggle1} name={project1.name} url={project1.url} stack={project1.stack} paragraph1={project1.paragraph1} paragraph2={project1.paragraph2} paragraph3={project1.paragraph3} paragraph4={project1.paragraph4} image1={project1.image1} image2={project1.image2}/>
+                    : <ProjectDetail onClick={this.toggle1} name={project1.name} url={project1.url} stack={project1.stack} paragraph1={project1.paragraph1} paragraph2={project1.paragraph2} paragraph3={project1.paragraph3} paragraph4={project1.paragraph4} videoId={"0DvmqlenAXI"}/>
                 }
                 {this.state.project2 ?
                     <Project name={"spacechat"} tagline={"A virtual reality smart chatroom with real-time language translation and sentiment analysis."} sectionId={"spacechat"} headerId={"spacechat-header"} text={"Projects"} particlesId={"stars"} onClick={this.toggle2} />
-                    : <ProjectDetail onClick={this.toggle2} name={project2.name} url={project2.url} stack={project2.stack} paragraph1={project2.paragraph1} paragraph2={project2.paragraph2} paragraph3={project2.paragraph3} paragraph4={project2.paragraph4} image1={project2.image1} image2={project2.image2}/>
+                    : <ProjectDetail onClick={this.toggle2} name={project2.name} url={project2.url} stack={project2.stack} paragraph1={project2.paragraph1} paragraph2={project2.paragraph2} paragraph3={project2.paragraph3} paragraph4={project2.paragraph4} videoId={"rxnfzv_Ff9Q"}/>
                 }
                 {this.state.project3 ?
                 <Project name={"Animations in React"} tagline={"Learn to animate React with higher order components, TweenMax, and more..."} sectionId={"animations"} headerId={"animations-header"} text={"Projects"} onClick={this.toggle3}/>
-                : <ProjectDetail onClick={this.toggle3} name={project3.name} url={project3.url} stack={project3.stack} paragraph1={project3.paragraph1} paragraph2={project3.paragraph2} paragraph3={project3.paragraph3} paragraph4={project3.paragraph4} image1={project3.image1} image2={project3.image2}/>
+                : <ProjectDetail onClick={this.toggle3} name={project3.name} url={project3.url} stack={project3.stack} paragraph1={project3.paragraph1} paragraph2={project3.paragraph2} paragraph3={project3.paragraph3} paragraph4={project3.paragraph4} videoId={"rxnfzv_Ff9Q"}/>
                 }
                 <About text={"About / Contact"} />
                 

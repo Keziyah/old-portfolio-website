@@ -4,8 +4,12 @@ html,body{
   min-width: 100vw; 
 }
 
-#content {
-  
+a {
+  color: #898d93; 
+}
+
+a:hover {
+  color: #333; 
 }
 
 .section, .container {
@@ -38,6 +42,8 @@ html,body{
 
 
 /******** HERO IMAGE *********/
+
+
 #hero-text {
   margin-top: 17%; 
 }
@@ -80,26 +86,37 @@ html,body{
   width: 500px; 
 }
 
-/*.details {
-  margin: 0 10%; 
+/*PROJUECT DETAILS */
+
+.vid-row {
+  margin-top: 5%; 
 }
 
-.details-para {
-  font-size: 1.8rem; 
+.stack {
+  font-weight: 300; 
 }
 
+.back-btn {
+  margin-top: 5%; 
+}
+
+.details-para{
+  font-size: 1.5rem; 
+}
+
+/*
 .details-top {
   margin-left: 5%; 
 }
 
 .details-top h3{
-  font-weight: 200;*/
-}
+  font-weight: 200;
+}*/
 
 /**********LINGOLY *********/
 
 #lingoly {
-  background-color: rosybrown
+  background-color: #1eb270;
 }
 
 /******* SPACECHAT ********/
@@ -133,7 +150,8 @@ html,body{
 /******ANIMATIONS IN REACT **********/
 
 #animations {
-  background-color: brown; 
+  background-color: #1d9de0; 
+  color: #efedec; 
 }
 
 #animations-header {
