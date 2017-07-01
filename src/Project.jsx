@@ -22,10 +22,6 @@ const Project = (props) => {
                         </div>
 
                     </div>
-
-                    {/*<div className="down">
-                            <i className="fa fa-chevron-down fa-5x" aria-hidden="true"></i>
-                    </div>*/}
             </div>
             </div>
         </div>

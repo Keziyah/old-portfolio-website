@@ -52,11 +52,6 @@ class App extends Component {
                 : <ProjectDetail onClick={this.toggle3} name={project3.name} url={project3.url} stack={project3.stack} paragraph1={project3.paragraph1} paragraph2={project3.paragraph2} paragraph3={project3.paragraph3} paragraph4={project3.paragraph4} videoId={"rxnfzv_Ff9Q"}/>
                 }
                 <About text={"About / Contact"} />
-                {/*<div id="too-small">
-                    <div className="container">
-                    <h1>Hi there. This site isn't optimized for mobile screens (yet). Please view this site on a screen with a width of more than 800px. Thanks! -Keziyah</h1>
-                    </div>
-                </div>*/}
             </div>
         )
     }

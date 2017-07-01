@@ -1,0 +1,37 @@
+%flex-row-center {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+%flex-col-center {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.about {
+    @extend %flex-row-center; 
+    text-align: center; 
+
+    &__main {
+        padding-top: 7%; 
+        max-width: 90%; 
+    }
+
+    img {
+        width: 200px; 
+        border-radius: 50%; 
+    }
+
+    &__p {
+        font-size: 2rem; 
+        padding-top: 3%; 
+    }
+    
+    &__contact {
+        @extend %flex-row-center; 
+        justify-content: space-around;
+        padding-top: 2%; 
+    }
+}
