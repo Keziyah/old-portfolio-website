@@ -1,0 +1,34 @@
+%flex-row-center {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+%flex-col-center {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero__text {
+    // @extend %flex-col-center; 
+    padding-top: 20%; 
+
+    &--name {
+        font-size: 4rem; 
+        text-transform: uppercase; 
+    }
+
+    &--tagline {
+        @extend %flex-row-center; 
+    }
+
+    &--down {
+        @extend %flex-row-center;
+        padding-top: 30%; 
+    }
+}

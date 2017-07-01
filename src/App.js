@@ -4,6 +4,7 @@ import Project from './Project'
 import ProjectDetail from './ProjectDetail'
 import {project1, project2, project3} from './details.js'
 import About from './About'
+import './sass/stylesheets/main.css'
 
 
 class App extends Component {
@@ -36,8 +37,7 @@ class App extends Component {
 
     render() {
         return (
-            <div className="container-fluid" id="content">
-                <div id="large-screen" >
+            <div className="container">
                 <Hero />
                  {this.state.project2 ?
                     <Project name={"spacechat"} tagline={"A virtual reality smart chatroom with real-time language translation and sentiment analysis."} sectionId={"spacechat"} headerId={"spacechat-header"} text={"Projects"} particlesId={"stars"} onClick={this.toggle2} />
@@ -52,12 +52,11 @@ class App extends Component {
                 : <ProjectDetail onClick={this.toggle3} name={project3.name} url={project3.url} stack={project3.stack} paragraph1={project3.paragraph1} paragraph2={project3.paragraph2} paragraph3={project3.paragraph3} paragraph4={project3.paragraph4} videoId={"rxnfzv_Ff9Q"}/>
                 }
                 <About text={"About / Contact"} />
-                </div>
-                <div id="too-small">
+                {/*<div id="too-small">
                     <div className="container">
                     <h1>Hi there. This site isn't optimized for mobile screens (yet). Please view this site on a screen with a width of more than 800px. Thanks! -Keziyah</h1>
                     </div>
-                </div>
+                </div>*/}
             </div>
         )
     }

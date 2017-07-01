@@ -10,7 +10,7 @@ const ProjectDetail = (props) => {
     }
 
     return (
-        <div className="section details container">
+        <div className="section details">
             <Row>
                 <Col md={3}>
                     <h3>{props.name}</h3>

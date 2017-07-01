@@ -8,7 +8,7 @@ const Project = (props) => {
             <div className="section-left">
                 <p>{props.text}</p>
             </div>
-            <div className="container project">
+            <div className="project">
                 <Grid>
                     <div className="hori-center project-info">
 
