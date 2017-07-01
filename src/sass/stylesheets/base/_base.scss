@@ -25,11 +25,23 @@ html {
  * Basic styles for links
  */
 a {
-  color: $brand-color;
+  color: #747a7e;
   text-decoration: none;
 
-  @include on-event {
-    color: $text-color;
-    text-decoration: underline;
+  &:hover {
+    color: #333; 
   }
+}
+
+//IMAGES
+
+img {
+    width: 150px; 
+    border-radius: 50%; 
+}
+
+
+//FONTS
+* {
+    font-family: 'Montserrat', sans-serif;
 }

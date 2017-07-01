@@ -10,25 +10,23 @@
   justify-content: center;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .hero__text {
     // @extend %flex-col-center; 
-    padding-top: 20%; 
+    padding-top: 10%; 
 
     &--name {
         font-size: 4rem; 
         text-transform: uppercase; 
-    }
-
-    &--tagline {
         @extend %flex-row-center; 
     }
 
-    &--down {
-        @extend %flex-row-center;
-        padding-top: 30%; 
+    &--tagline  {
+        @extend %flex-row-center; 
     }
+}
+
+.down {
+    text-align: center; 
+    position: relative; 
+    bottom: -30%; 
 }

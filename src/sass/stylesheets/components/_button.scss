@@ -1,3 +1,26 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+button {
+    border: none; 
+    width: 14em; 
+    height: 3em; 
+    border-radius: 40px/30px; 
+    font-size: 12px;
+    color: #333;  
+    padding: 10px; 
+    text-transform: uppercase; 
+    cursor: pointer; 
+    background: #efedec; 
+    margin-top: 5%; 
+
+    &:hover {
+        background: #ddd; 
+    }
+
+    &:focus {
+        outline: none; 
+    }
+
+}

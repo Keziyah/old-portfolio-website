@@ -13,7 +13,7 @@ const Hero = () => {
                             </div>
                     </div>
 
-                    <div className="hero__text--down">
+                    <div className="down">
                             <i className="fa fa-chevron-down fa-5x" aria-hidden="true"></i>
                     </div>
             </div>

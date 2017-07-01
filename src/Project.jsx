@@ -1,44 +1,31 @@
 import React from 'react'
-import { Grid, Row, Col, Button } from 'react-bootstrap'
 
 const Project = (props) => {
     return (
-        <div className="section" id={props.sectionId}>
+        <div className="section project" id={props.sectionId}>
             <div id={props.particlesId}>
-            <div className="section-left">
+            <div className="project__type">
                 <p>{props.text}</p>
             </div>
-            <div className="project">
-                <Grid>
-                    <div className="hori-center project-info">
+            <div className="project__main">
+                    <div>
+                        <div className="project__title">
+                            <h1 id={props.headerId}>{props.name}</h1>
+                        </div>
 
-                        <Row>
-                            <Col sm={12}>
-                                <h1 className="project-name" id={props.headerId}>{props.name}</h1>
-                            </Col>
-                        </Row>
+                        <div className="project__tagline">
+                            <h1>{props.tagline}</h1>
+                        </div>
 
-                        <Row>
-                            <Col sm={12}>
-                                <h1 className="project-tag">{props.tagline}</h1>
-                            </Col>
-                        </Row>
-
-                        <Row className="my-button">
-                            <Col sm={12}>
-                                <Button onClick={props.onClick}>Learn More</Button>
-                            </Col>
-                        </Row>
+                        <div className="project__button">
+                            <button onClick={props.onClick}>Learn More</button>
+                        </div>
 
                     </div>
 
-                    <Row className="project-down">
-                        <Col sm={12} className="hori-center">
+                    {/*<div className="down">
                             <i className="fa fa-chevron-down fa-5x" aria-hidden="true"></i>
-                        </Col>
-                    </Row>
-
-                </Grid>
+                    </div>*/}
             </div>
             </div>
         </div>

@@ -1,0 +1,53 @@
+%flex-row-center {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+%flex-col-center {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.project {
+    &__type {
+       position: absolute; 
+       left: 30px; 
+       font-size: 2rem; 
+    }
+
+    &__main {
+        @extend %flex-col-center; 
+        text-align: center; 
+        padding-top: 5%; 
+    }
+
+    &__title {
+        font-size: 5rem; 
+    }
+}
+
+//Individual project sections
+
+//*****SPACECHAT
+#spacechat-header {
+    font-family: 'Orbitron', sans-serif !important;
+}
+
+#spacechat {
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  color: #efedec; 
+}
+
+//******LINGOLY
+#lingoly {
+  background-color: #1eb270;
+}
+
+//*******ANIMATIONS
+
+#animations {
+  background-color: #1d9de0; 
+  color: #efedec; 
+}
