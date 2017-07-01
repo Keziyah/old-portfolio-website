@@ -16,7 +16,7 @@ const Hero = () => {
 
                         <Row>
                             <Col sm={12}>
-                                <h1 id="tagline">Fullstack Software Engineer</h1>
+                                <h1 id="tagline">Full Stack Software Engineer</h1>
                             </Col>
                         </Row>
 
