@@ -10,8 +10,9 @@
   justify-content: center;
 }
 
-html {
+html, body {
   overflow-x: hidden; 
+  width: 100vw; 
 }
 
 .container {
@@ -21,7 +22,7 @@ html {
     margin: auto; 
 }
 
-.section, .project {
+.section, .project, .hero, .details {
     height: 100vh; 
-    min-width: 100vw;
+    width: 100vw; 
 }

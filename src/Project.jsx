@@ -4,11 +4,8 @@ const Project = (props) => {
     return (
         <div className="section project" id={props.sectionId}>
             <div id={props.particlesId}>
-            <div className="project__type">
-                <p>{props.text}</p>
-            </div>
             <div className="project__main">
-                    <div>
+                    <div className="project__container">
                         <div className="project__title">
                             <h1 id={props.headerId}>{props.name}</h1>
                         </div>

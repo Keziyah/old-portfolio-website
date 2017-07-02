@@ -3,12 +3,9 @@ import React from 'react'
 const About = (props) => {
     return (
         <div className="section about">
-            <div className="project__type">
-                <p>{props.text}</p>
-            </div>
             <div className="about__main">
                         <div className="about__img">
-                            <img src="myFace.jpg" />
+                            <img src="myFace.jpg" alt="Keziyah's headshot"/>
                         </div>
 
                         <div className="about__p">

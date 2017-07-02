@@ -16,8 +16,21 @@
         @extend %flex-row-center; 
         padding-top: 2%; 
 
-        &--left {
-            // align-content: flex-start; 
+        @media screen and (max-width: 650px) {
+
+            @media screen and (min-width: 375px) {
+                padding-top: 10%; 
+            }
+
+            h3 {
+                font-size: 1.2rem; 
+            }
+        }
+
+        @media screen and (max-width: 1100px) and (min-width: 550px) {
+            h3 {
+                font-size: 2rem; 
+            }
         }
 
         &--right {
@@ -28,15 +41,33 @@
     &__main {
         @extend %flex-row-center;
         padding-top: 5%; 
+
+        flex-wrap: wrap; 
     }
 
     &__video {
-        width: 50%; 
+
+        @media screen and (min-width: 1300px) {
+            width: 50%; 
+        }
+
+        @media screen and (min-width: 1600px) {
+            width: 40%;
+        }
+         
     }
 
     &__text {
-        width: 35%; 
+        width: 40%; 
         font-size: 1.5rem; 
+        padding-left: 0.5rem; 
+
+        @media screen and (max-width: 1100px) {
+            width: 90%; 
+            height: 200px; 
+            overflow-y: scroll; 
+            margin-top: 5%; 
+        }
     }
 
     &__back {
