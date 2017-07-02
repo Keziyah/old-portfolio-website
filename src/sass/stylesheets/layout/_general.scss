@@ -10,13 +10,14 @@
   justify-content: center;
 }
 
+html {
+  overflow-x: hidden; 
+}
+
 .container {
     display: flex; 
     flex-direction: column; 
     align-items: center;  //center on the horizonal axis
-    // position: absolute; 
-    // left: 0; 
-    // min-width: 100vw;
     margin: auto; 
 }
 

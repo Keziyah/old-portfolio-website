@@ -1,0 +1,45 @@
+%flex-row-center {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+%flex-col-center {
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.details {
+
+    &__project {
+        @extend %flex-row-center; 
+        padding-top: 2%; 
+
+        &--left {
+            // align-content: flex-start; 
+        }
+
+        &--right {
+            color: #777977; 
+        }
+    }
+
+    &__main {
+        @extend %flex-row-center;
+        padding-top: 5%; 
+    }
+
+    &__video {
+        width: 50%; 
+    }
+
+    &__text {
+        width: 35%; 
+        font-size: 1.5rem; 
+    }
+
+    &__back {
+        @extend %flex-row-center;
+    }
+}

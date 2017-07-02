@@ -14,7 +14,7 @@ export const project1 = {
 
 export const project2 = {
     name: "Spacechat", 
-    url: "spacechat.tech", 
+    url: "", 
     stack: "A-Frame - React - Redux - SocketIO", 
     paragraph1: "During the final phase of Grace Hopper Academy, my capstone team and I were very intested in creating an app that related to our interests, such as natural language, visualizing data, and Web VR.", 
     paragraph2: "Spacechat is a virtual reality chatroom that translates speech to and from 12 langauges, and uses sentiment, emotion, and personality analysis of the conversation (via Indico) to animate the virtual scenes.", 

@@ -16,22 +16,27 @@
 
     &__main {
         padding-top: 7%; 
-        max-width: 90%; 
+        max-width: 80%; 
     }
 
     img {
-        width: 200px; 
+        width: 175px; 
         border-radius: 50%; 
     }
 
     &__p {
-        font-size: 2rem; 
+        font-size: 1.7rem; 
         padding-top: 3%; 
     }
     
     &__contact {
         @extend %flex-row-center; 
-        justify-content: space-around;
-        padding-top: 2%; 
+        justify-content: space-between;
+        padding-top: 6%; 
+
+        &-icon {
+            padding-left: 5%; 
+            font-size: 1.5rem; 
+        }
     }
 }
