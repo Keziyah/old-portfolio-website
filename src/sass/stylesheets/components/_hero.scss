@@ -10,17 +10,29 @@
   justify-content: center;
 }
 
+.hero {
+    background-image: url('EssaouiraMedina.JPG'); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
 .hero__text {
     padding-top: 10%; 
-
-    &--name {
+     &--name {
         font-size: 4rem; 
         text-transform: uppercase; 
         @extend %flex-row-center; 
     }
 
     &--tagline  {
-        @extend %flex-row-center; 
+        @extend %flex-row-center;
+
+        @media screen and (min-width: 850px) {
+            h1 {
+            background: rgba(255, 255, 255, 0.7);
+        }
+    }   
     }
 }
 
@@ -28,6 +40,7 @@
     text-align: center; 
     position: relative; 
     bottom: -30%; 
+    color: #ddd; 
 }
 
 @media screen and (max-width: 700px) {
