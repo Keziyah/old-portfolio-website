@@ -11,6 +11,8 @@
 }
 
 .project {
+  animation: fade 1s ease-in;
+  
     &__type {
        position: absolute; 
        left: 30px; 

@@ -11,6 +11,7 @@
 }
 
 .details {
+    animation: fade 1s ease-in;
 
     &__project {
         @extend %flex-row-center; 
