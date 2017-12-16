@@ -1,0 +1,25 @@
+@import '../abstracts/variables'; 
+
+.myStory {
+    min-height: 95vh; 
+    // height: 95vh; 
+    animation: fade 1s ease-out;
+    // -ms-flex-align:center;
+    display: flex; 
+    flex-direction: column; 
+
+    &__paragraph {
+        // text-align: center; 
+        @extend %flex-col-center; 
+        margin: 0 8rem; 
+
+        @media screen and (max-width: 600px) {
+            margin: 0 3rem; 
+        }
+
+        p {
+            font-size: 0.8em; 
+            max-width: 100%; //Needed for IE11; 
+        }
+    }
+}
