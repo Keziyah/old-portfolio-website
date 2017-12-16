@@ -30,7 +30,7 @@ const Life = () => {
                 </p>
 
                 <p>
-                    You can view the project <a href="/lsc" target="_blank" rel="noopener noreferrer">here</a>. 
+                    You can view the project <a href="http://keziyah.herokuapp.com/lsc/" target="_blank" rel="noopener noreferrer">here</a>. 
                 </p>
             </div>
 
