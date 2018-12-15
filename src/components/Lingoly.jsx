@@ -64,7 +64,7 @@ const Lingoly = () => {
 
                 </div>
             </div>
-            <footer> &copy; Keziyah Lewis 2017.</footer>
+            <footer> &copy; Keziyah Lewis 2019.</footer>
         </div>
     )
 }

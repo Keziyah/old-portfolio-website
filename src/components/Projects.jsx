@@ -25,15 +25,6 @@ const Projects = () => {
 
             <div className="projects__links">  
                 {/* <div className="projects-row"> */}
-                <Link to="/kursor">
-                    <div className="kursor project-div">
-                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
-                        <div className="spacechat-info project-info">
-                            <p>React | Redux | Electron | UX/UI Design</p>
-                            <p>Journal. Better.</p>
-                        </div>
-                    </div>
-                </Link>
 
                 <Link to="/pollapp">
                     <div className="pingpoll project-div">
@@ -42,6 +33,16 @@ const Projects = () => {
                         </div>
                         <div className="pingpoll-info project-info">
                             <p>React | Redux | Firebase | UX/UI Design</p>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to="/kursor">
+                    <div className="kursor project-div">
+                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
+                        <div className="spacechat-info project-info">
+                            <p>React | Redux | Electron | UX/UI Design</p>
+                            <p>Journal. Better.</p>
                         </div>
                     </div>
                 </Link>
