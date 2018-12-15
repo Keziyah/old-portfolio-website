@@ -70,7 +70,7 @@ class App extends Component {
                 scroll.scrollTo(this.state.scrollY)
             }
         })
-        console.log("state", this.state)
+        // console.log("state", this.state)
     }
 
     toggleVid() {
@@ -78,7 +78,7 @@ class App extends Component {
     }
 
     render() {
-        console.log("WIDTH", window.innerWidth); 
+        // console.log("WIDTH", window.innerWidth); 
 
         return (
         <div>
