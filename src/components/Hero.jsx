@@ -15,7 +15,7 @@ const Hero = (props) => {
                 {/* </ScrollAnimation> */}
 
                 {/* <ScrollAnimation animateOut="fadeOutLeft" initiallyVisible={true}> */}
-                    <h3>I build <em>experiences</em>. <span className="highlight">Let me build yours.</span></h3>
+                    {/* <h3>I build <em>experiences</em>. <span className="highlight">Let me build yours.</span></h3> */}
                 {/* </ScrollAnimation> */}
                 
             <div className="hero__lower">

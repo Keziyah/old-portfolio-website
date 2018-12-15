@@ -8,7 +8,7 @@ const HireMe = (props) => {
     return (
         <div className="section hireme" >
             <div className="section-title">
-                <h3>Hire Me</h3>
+                {/* <h3>Hire Me</h3> */}
             </div>
 
             <div className="quote" id="contact">
@@ -33,7 +33,7 @@ const HireMe = (props) => {
 
             {/* <ScrollAnimation animateIn="slideInUp"> */}
                 <div className="hireme__job">
-                    <h3>If you have an interesting project, a full time<br/> engineering role (NYC, DC, SF, or remote), or <br/> just want to connect, feel free to say hello.</h3>
+                    <h3>Feel free to say hello.</h3>
                 </div>
             {/* </ScrollAnimation> */}
 

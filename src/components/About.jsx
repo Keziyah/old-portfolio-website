@@ -11,8 +11,8 @@ const About = (props) => {
             <Element name="about">
             <div className="about__main">
                         <div className="about__p">
-                            <p>I’m Keziyah, a teacher, traveler, and <span className="highlight">full stack software engineer</span> based in Central Florida.  
-                            I use JavaScript frameworks to create responsive websites and interactive <span className="highlight">web and mobile apps.</span> When I'm not coding, I love to travel and watch telenovelas. Feel free to say hi, or read more 
+                            <p>I’m Keziyah, <span className="highlight">full stack software engineer & designer</span> based in Central Florida.  
+                            I use JavaScript frameworks to create responsive websites and interactive <span className="highlight">web apps.</span> Feel free to say hi, or read more 
                             about me <Link to="/story">here</Link>.
                             </p>
                         </div>
@@ -25,7 +25,7 @@ const About = (props) => {
             </div>
             </Element>
 
-            <footer> <p>&copy; Keziyah Lewis 2017.</p></footer>
+            <footer> <p>&copy; Keziyah Lewis 2019.</p></footer>
         </div>
     )
 }

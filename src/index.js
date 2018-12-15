@@ -9,8 +9,7 @@ import registerServiceWorker from './registerServiceWorker'
 
 import Spacechat from './components/Spacechat'
 import Lingoly from './components/Lingoly'
-import Covfefe from './components/Covfefe'
-import Life from './components/Life'
+import Pollapp from './components/Pollapp'
 import Bladress from './components/Bladress'
 import Kursor from './components/Kursor'
 import NoMatch from './components/NoMatch'
@@ -24,9 +23,9 @@ ReactDOM.render(
                     <Route exact path="/" component={App} />
                     <Route path="/spacechat" component={Spacechat} />
                     <Route path="/lingoly" component={Lingoly} />
-                    <Route path="/covfefe" component={Covfefe} /> 
+                    <Route path="/pollapp" component={Pollapp} /> 
                     <Route path="/story" component={MyStory} />
-                    <Route path="/life" component={Life} />
+                    {/* <Route path="/life" component={Life} /> */}
                     <Route path="/bladress" component={Bladress} />
                     <Route path="/kursor" component={Kursor} />
                     <Route component={NoMatch} />

@@ -25,6 +25,37 @@ const Projects = () => {
 
             <div className="projects__links">  
                 {/* <div className="projects-row"> */}
+                <Link to="/kursor">
+                    <div className="kursor project-div">
+                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
+                        <div className="spacechat-info project-info">
+                            <p>React | Redux | Electron | UX/UI Design</p>
+                            <p>Journal. Better.</p>
+                        </div>
+                    </div>
+                </Link>
+
+                <Link to="/pollapp">
+                    <div className="pingpoll project-div">
+                        <div className="pingpoll-logo project-logo">
+                            Untitled social polling app
+                        </div>
+                        <div className="pingpoll-info project-info">
+                            <p>React | Redux | Firebase | UX/UI Design</p>
+                        </div>
+                    </div>
+                </Link>
+
+                <a href="http://juniorsintech.com" target="_blank" rel="noopener noreferrer">
+                    <div className="juniors project-div">
+                        <div className="juniors-logo project-logo">
+                            <img src="juniorslogo.png" alt="juniors in tech logo"/>
+                        </div>
+                        <div className="juniors-info project-info">
+                            <p>A weekly newsletter for Juniors in Tech.</p>
+                        </div>
+                    </div>
+                </a>
                     <Link to="/spacechat">
                         <div className="spacechat project-div">
                             <div className="spacechat-logo project-logo"><img src="spacechatlogo.png" alt="spacechat logo"/></div>
@@ -43,40 +74,11 @@ const Projects = () => {
                         </div>
                     </Link>
 
-                    <Link to="/covfefe">
-                        <div className="covfefe project-div">
-                            <div className="covfefe-logo project-logo"><img src="covfefe.png" alt="covfefe letter logo" /></div>
-                            <div className="spacechat-info project-info">
-                                <p>IBM Watson | JavaScript</p>
-                            </div>
-                        </div>
-                    </Link>
-                {/* </div>  */}
-
-                <Link to="/life">
-                    <div className="life project-div">
-                        <div className="life-logo project-logo"><img src="life.png" alt="life solutions counseling logo" /></div>
-                        <div className="spacechat-info project-info">
-                            <p>Design | Frontend</p>
-                        </div>
-                    </div>
-                </Link>
-
                 <Link to="/bladress">
                     <div className="bladress project-div">
                         <div className="bladress-logo project-logo"><img src="bladress.png" alt="the bladress logo" /></div>
                         <div className="spacechat-info project-info">
                             <p>Design | Frontend | Wordpress</p>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link to="/kursor">
-                    <div className="kursor project-div">
-                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
-                        <div className="spacechat-info project-info">
-                            <p>React | Redux | Electron | Product Design</p>
-                            <p>Journal. Better.</p>
                         </div>
                     </div>
                 </Link>
