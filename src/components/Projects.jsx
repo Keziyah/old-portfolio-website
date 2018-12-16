@@ -23,8 +23,29 @@ const Projects = () => {
                 <h3>- Issa Rae</h3>
             </div>
 
+            <a href="http://revolnote.com" target="_blank" rel="noopener noreferrer" style={{backgroundColor: '#F9F9F9', width: '100%'}}>
+                <div style={{textAlign: 'center', paddingTop: '40px'}}>
+                    <div className="project-logo" style={{height: '250px', width: '250px', margin: '0 auto'}}>
+                        <img  src="revolnotelogo.png" alt="revolnote logo"/>
+                    </div>
+                    <div className="project-info">
+                        <p>Turn your anger into action. Coming soon.</p>
+                    </div>
+                </div>
+            </a>
+
             <div className="projects__links">  
                 {/* <div className="projects-row"> */}
+
+                <Link to="/kursor">
+                    <div className="kursor project-div">
+                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
+                        <div className="spacechat-info project-info">
+                            <p>React | Redux | Electron | UX/UI Design</p>
+                            <p>Journal. Better.</p>
+                        </div>
+                    </div>
+                </Link>
 
                 <Link to="/pollapp">
                     <div className="pingpoll project-div">
@@ -33,16 +54,6 @@ const Projects = () => {
                         </div>
                         <div className="pingpoll-info project-info">
                             <p>React | Redux | Firebase | UX/UI Design</p>
-                        </div>
-                    </div>
-                </Link>
-
-                <Link to="/kursor">
-                    <div className="kursor project-div">
-                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
-                        <div className="spacechat-info project-info">
-                            <p>React | Redux | Electron | UX/UI Design</p>
-                            <p>Journal. Better.</p>
                         </div>
                     </div>
                 </Link>

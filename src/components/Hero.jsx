@@ -14,7 +14,7 @@ const Hero = (props) => {
                     </h1>
                 {/* </ScrollAnimation> */}
 
-                <p style={{maxWidth: '50%'}}>I work on products to help people make a positive impact on their own lives and in the world. </p>
+                <p style={{maxWidth: '70%', fontSize: '18px'}}>I work on products that help people make a positive impact on their own lives and in the world. </p>
 
                 {/* <ScrollAnimation animateOut="fadeOutLeft" initiallyVisible={true}> */}
                     {/* <h3>I build <em>experiences</em>. <span className="highlight">Let me build yours.</span></h3> */}
