@@ -11,9 +11,9 @@ const About = (props) => {
             <Element name="about">
             <div className="about__main">
                         <div className="about__p">
-                            <p>I’m Keziyah, <span className="highlight">full stack software engineer & designer</span> based in Central Florida.  
-                            I use JavaScript frameworks to create responsive websites and interactive <span className="highlight">web apps.</span> Feel free to say hi, or read more 
-                            about me <Link to="/story">here</Link>.
+                            <p>I’m Keziyah, <span className="highlight">full stack software engineer & designer</span>.  
+                            I'm also an indie maker, and in 2019, I'm challenging myself to turn my projects into profitable products, while being a digital nomad. 
+                            Read more about me <Link to="/story">here</Link>, or on my <a href="http://blog.keziyah.com" target="_blank" rel="nooopener noreferrer">blog</a>. 
                             </p>
                         </div>
 

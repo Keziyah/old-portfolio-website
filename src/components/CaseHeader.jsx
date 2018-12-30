@@ -11,6 +11,8 @@ const CaseHeader = () => {
 
                         <Link to="/"><h3>Home</h3></Link>
 
+                        <a href="http://blog.keziyah.com"><h3>Blog</h3></a>
+
                         <a href="/#projects"><h3>Work</h3></a>
 
                         <a href="/#contact"><h3>Contact</h3></a>

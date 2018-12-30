@@ -19,6 +19,13 @@ const Header = (props) => {
                     <h3>Home</h3>
                     </Link>
 
+                    <a 
+                        href="http://blog.keziyah.com"
+                        to="projects" 
+                        >
+                    <h3>Blog</h3>
+                    </a>
+
                     <Link activeClass="active"
                         to="projects" 
                         spy={true}

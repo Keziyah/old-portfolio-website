@@ -31,13 +31,13 @@ const Hero = (props) => {
                         <button>Work</button>
                     </Link>
                     
-                    <Link activeClass="active"
-                     to="contact" 
-                     spy={true}
-                     smooth={"easeOutCubic"} 
-                     duration={600}>
-                        <button className="hero__buttons--contact">Contact</button>
-                    </Link>
+                    <a 
+                     href="http://blog.keziyah.com"
+                     target="_blank"
+                     rel="noopener noreferrer"
+                    >
+                        <button className="hero__buttons--contact">Blog</button>
+                    </a>
                  </div>
             </div>
             <div className="scroll-downs">
