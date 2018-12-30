@@ -40,31 +40,31 @@ const HireMe = (props) => {
             <div className="hireme__links">
                  <div className="hireme__links-icon">
                                 <a href="http://www.linkedin.com/in/keziyah/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-linkedin fa-5x" aria-hidden="true"></i>
+                                    <i className="fa fa-linkedin fa-4x" aria-hidden="true"></i>
                                 </a>
                             </div>
 
                             <div className="hireme__links-icon">
                                 <a href="http://github.com/Keziyah/" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-github fa-5x" aria-hidden="true"></i>
+                                    <i className="fa fa-github fa-4x" aria-hidden="true"></i>
                                 </a>
                             </div>
 
                             <div className="hireme__links-icon">
                                 <a href="http://instagram.com/keziyah_is" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-instagram fa-5x" aria-hidden="true"></i>
+                                    <i className="fa fa-instagram fa-4x" aria-hidden="true"></i>
                                 </a>
                             </div>
 
                             <div className="hireme__links-icon">
                                 <a href="http://twitter.com/KeziyahL" target="_blank" rel="noopener noreferrer">
-                                    <i className="fa fa-twitter fa-5x" aria-hidden="true"></i>
+                                    <i className="fa fa-twitter fa-4x" aria-hidden="true"></i>
                                 </a>
                             </div>
 
                             <div className="hireme__links-icon" id="email-icon">
                                 <a href="mailto:hello@keziyah.com">
-                                    <i className="fa fa-envelope fa-5x" aria-hidden="true"></i>
+                                    <i className="fa fa-envelope fa-4x" aria-hidden="true"></i>
                                 </a>
                                 <p id="email">hello@keziyah.com</p>
                             </div>
