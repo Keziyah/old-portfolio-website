@@ -29,6 +29,11 @@ const Accelerator = () => {
                     <li>Confirmation emails are sent to applicants upon completion</li>
                 </ul>
 
+
+                <div className="project-body__image" style={{maxHeight: '500px', maxWidth: '800px', marginBottom: '40px'}}>
+                    <img src="accelerator.gif" style={{height: '100%', width: '100%'}} alt="gif of screen recording of accelerator applications app"/>
+                </div>
+
                 <p>&nbsp;</p>
             </div>
 

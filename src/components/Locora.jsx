@@ -98,6 +98,12 @@ const Pollapp = () => {
                     </div>
                 </div>
 
+                <p>The biggest change made based on the user interviews was adding the "Discover" tab. During the 
+                    interviews I realized that people were far more likely to search for answered polls, than to post
+                    a new poll. Therefore, I decided it would be good to have a tab with trending topics so that 
+                    people could easily look through topics that others in their community are talking about right now. 
+                </p>
+
                 <h1>Development</h1>
                 <p>The app was developed using React, Redux, and Firebase (Firestore database and authentication).
                     You can view a demo on desktop or mobile <a href="https://pingpoll-a5ce8.firebaseapp.com/" target="_blank" rel="noopener noreferrer">here</a>. 
