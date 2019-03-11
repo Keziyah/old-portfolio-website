@@ -55,28 +55,30 @@ const Projects = () => {
             <div className="projects__links">  
                 {/* <div className="projects-row"> */}
 
-                <Link to="/kursor">
-                    <div className="kursor project-div">
-                        <div className="kursor-logo project-logo"><img src="kursor.png" alt="kursor logo" /></div>
+                <Link to="/accelerator">
+                    <div className="accelerator project-div">
+                        <div className="accelerator-logo project-logo">
+                            {/* <img src="kursor.png" alt="kursor logo" /> */}
+                            Backstage Accelerator Applications Project
+                        </div>
                         <div className="spacechat-info project-info">
-                            <p>React | Redux | Electron | UX/UI Design</p>
-                            <p>Journal. Better.</p>
+                            <p>React | Redux | MongoDB </p>
                         </div>
                     </div>
                 </Link>
 
-                <Link to="/pollapp">
-                    <div className="pingpoll project-div">
-                        <div className="pingpoll-logo project-logo">
-                            Untitled social polling app
+                <Link to="/locora">
+                    <div className="locora project-div">
+                        <div className="locora-logo project-logo">
+                            <img src="locora.png" alt="locora logo" />
                         </div>
-                        <div className="pingpoll-info project-info">
+                        <div className="locora-info project-info">
                             <p>React | Redux | Firebase | UX/UI Design</p>
                         </div>
                     </div>
                 </Link>
 
-                <a href="http://juniorsintech.com" target="_blank" rel="noopener noreferrer">
+                <Link to="/juniorsintech">
                     <div className="juniors project-div">
                         <div className="juniors-logo project-logo">
                             <img src="juniorslogo.png" alt="juniors in tech logo"/>
@@ -85,7 +87,8 @@ const Projects = () => {
                             <p>A weekly newsletter for Juniors in Tech.</p>
                         </div>
                     </div>
-                </a>
+                </Link>
+
                     <Link to="/spacechat">
                         <div className="spacechat project-div">
                             <div className="spacechat-logo project-logo"><img src="spacechatlogo.png" alt="spacechat logo"/></div>

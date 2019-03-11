@@ -113,13 +113,18 @@
         background-color: #7F422E; 
     }
 
-    .pingpoll {
-        background-color: #FEBD17;
-        color: black; 
+    .locora {
+        background-color: #22444c;
+        color: white; 
     }
 
     .juniors {
         background-color: #536C74;
+        color: white; 
+    }
+
+    .accelerator {
+        background-color: #742aff; 
         color: white; 
     }
 }
@@ -183,6 +188,21 @@
                 font-size: 0.7rem; 
         }
     }
+
+
+.invision-embed {
+    margin: 0 auto; 
+    width: 438px; 
+
+    iframe {
+        width: 438px; 
+        height: 930px; 
+
+        @media screen and (max-width: 767px) {
+            display: none; 
+        }
+    }
+}
 //END QUOTE STYLES//
 
 // .kursor {

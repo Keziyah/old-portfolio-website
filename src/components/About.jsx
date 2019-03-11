@@ -13,7 +13,7 @@ const About = (props) => {
                         <div className="about__p">
                             <p>I’m Keziyah, <span className="highlight">full stack software engineer & designer</span>.  
                             I'm also an indie maker, and in 2019, I'm challenging myself to turn my projects into profitable products, while being a digital nomad. 
-                            Read more about me <Link to="/story">here</Link>, or on my <a href="http://blog.keziyah.com" target="_blank" rel="nooopener noreferrer">blog</a>. 
+                            Read more about me <Link to="/story">here</Link>, or on my <a href="http://blog.keziyah.com" target="_blank" rel="noopener noreferrer">blog</a>. 
                             </p>
                         </div>
 

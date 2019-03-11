@@ -9,9 +9,8 @@ const Bladress = () => {
 
             <div className="project-hero">
                 <h1>The Bladress</h1>
-                <h5>Design | HTML | CSS | jQuery | Wordpress | Wireframes using Sketch</h5>
-                <h4>A website redesign for a badass female long distance rollerblader.  
-                </h4>
+                <p>Wordpress custom theme, UI design</p>
+                <p>A website redesign for a badass female long distance rollerblader.</p>
             </div>
 
             <div className="project-body">
