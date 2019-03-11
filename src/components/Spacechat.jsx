@@ -10,7 +10,7 @@ const Spacechat = () => {
                 <h1>spacechat</h1>
                 <h5>JavaScript | React | Redux | Express | SocketIO | A-Frame</h5>
                 <h4>A virtual reality smart chatroom with language translation
-                and senitment anlysis features.
+                and senitment anlaysis features.
                 </h4>
             </div>
 
