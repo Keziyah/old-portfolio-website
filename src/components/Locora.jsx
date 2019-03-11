@@ -63,11 +63,11 @@ const Pollapp = () => {
 
                 <div style={{width: '300px', margin: '0 auto'}}>
                     <div className="project-body__image" style={{height: '400px', width: '215px', marginBottom: '40px'}}>
-                            <img src="jessprofile.png" alt="sketch ui of locora before user interviews"/>
+                            <img src="JessProfile.png" alt="ui version 1 - user profile"/>
                     </div>
 
                     <div className="project-body__image" style={{height: '400px', width: '215px', marginBottom: '40px'}}>
-                            <img src="locoraoldfeed.png" alt="sketch ui of locora"/>
+                            <img src="locoraoldfeed.png" alt="UI version 1 - newsfeed"/>
                     </div>
                 </div>
 
@@ -84,17 +84,17 @@ const Pollapp = () => {
                 
                 <div style={{width: '300px', margin: '0 auto'}}>
                     <div className="project-body__image" style={{height: '400px', width: '215px', marginBottom: '40px'}}>
-                            <img src="pingpoll1.png" alt="sketch ui of pingpoll"/>
+                            <img src="pingpoll1.png" alt="Ui version 2 - user profile"/>
                     </div>
 
 
                     <div className="project-body__image" style={{height: '400px', width: '215px', marginBottom: '40px'}}>
-                            <img src="pingpoll2.png" alt="sketch ui of pingpoll"/>
+                            <img src="pingpoll2.png" alt="UI version 2 - discover/trending tab"/>
                     </div>
 
 
                     <div className="project-body__image" style={{height: '400px', width: '215px', marginBottom: '40px'}}>
-                            <img src="pingpoll3.png" alt="sketch ui of pingpoll"/>
+                            <img src="pingpoll3.png" alt="UI version 2 - main feed"/>
                     </div>
                 </div>
 

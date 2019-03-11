@@ -59,7 +59,7 @@ const Projects = () => {
                     <div className="accelerator project-div">
                         <div className="accelerator-logo project-logo">
                             {/* <img src="kursor.png" alt="kursor logo" /> */}
-                            Backstage Accelerator Applications Project
+                            Backstage Applications Project
                         </div>
                         <div className="spacechat-info project-info">
                             <p>React | Redux | MongoDB </p>
