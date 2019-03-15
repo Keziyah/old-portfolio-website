@@ -24,6 +24,8 @@ const MyStory = () => {
                         while traveling. Follow my journey on <a href="http://blog.keziyah.com" target="_blank" rel="noopener noreferrer">my blog</a> and on <a href="http://instagram.com/keziyah_is" target="_blank" rel="noopener noreferrer">Instagram</a>. 
                     </p>
 
+                    <p>View my <a href="/KeziyahResume.pdf">resume</a>. </p>
+
             </div>
         </div>
         <footer> &copy; Keziyah Lewis 2019.</footer>
