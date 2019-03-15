@@ -24,7 +24,7 @@ const MyStory = () => {
                         while traveling. Follow my journey on <a href="http://blog.keziyah.com" target="_blank" rel="noopener noreferrer">my blog</a> and on <a href="http://instagram.com/keziyah_is" target="_blank" rel="noopener noreferrer">Instagram</a>. 
                     </p>
 
-                    <p>View my <a href={`${process.env.PUBLIC_URL}/KeziyahResume.pdf`}>resume</a>. </p>
+                    <p>View my <a href="https://drive.google.com/file/d/1BNF0sUfYyIIjEXARhepOYvSsSH8z934i/view?usp=sharing" target="_blank" rel="noopener noreferrer">resume</a>. </p>
 
             </div>
         </div>
